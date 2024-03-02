@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: "Raleway", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   font-weight: normal;
   font-style: normal;
 }
+
 /* =======================================================
 *
 * 	Template Style 
@@ -17,7 +17,7 @@ body {
   line-height: 1.7;
   color: #333333;
   background: #fff;
-  
+ 
 }
 
 
@@ -57,6 +57,11 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+a.emailme {
+  color: white;
+}
+
 a:hover, a:active, a:focus {
   color: #DD356E;
   outline: none;
@@ -67,12 +72,53 @@ p {
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+p.secret {
+  color: white;
+}
+
+/*h1 글자 더 크고 가운데*/
+
+h1 {
+  color: #000;
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 20px 0;
+  font-size: 10vw;
+}
+
+h3 {
+  color: #000;
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 0 20px 0;
+  font-size: 4.8vw;
+  letter-spacing: -1px;
+}
+
+h6 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 30px 0 20px 0;
+  font-size: 1vw;
+}
+
+h2{
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 0 20px 0;
+  font-size: 10vw;
+}
+
+h4, h5, figure {
   color: #000;
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
-  tee
+  font-size: 10vw;
 }
 
 ::-webkit-selection {
@@ -82,7 +128,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-moz-selection {
   color: #fff;
-  background: #DD356E;
+  background: #0004ff;
 }
 
 ::selection {
@@ -96,6 +142,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .top-menu {
   padding: 28px 0;
 }
+
+/** 메모: replace with logo **/
 .fh5co-nav #fh5co-logo {
   font-size: 32px;
   margin: 0;
@@ -1288,6 +1336,10 @@ input[type="text"] {
   }
 }
 
+h6 {
+  font-size: 2.5vw;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -1475,6 +1527,7 @@ input[type="text"] {
   margin: 0 !important;
 }
 
+/*메모: customize gif*/
 .fh5co-loader {
   position: fixed;
   left: 0px;
