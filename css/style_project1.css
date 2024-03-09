@@ -45,7 +45,9 @@
 
 .Howitallstarted h1,
 .UXDesign h1,
-.UsabilityTest h1 {
+.UsabilityTest h1, 
+.ProjectPrototype h1,
+.KeyTakeaways h1 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -54,7 +56,9 @@
 
 .Howitallstarted h2,
 .UXDesign h2,
-.UsabilityTest h2 {
+.UsabilityTest h2, 
+.ProjectPrototype h2,
+.KeyTakeaways h2 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -63,7 +67,9 @@
 
 .Howitallstarted h3,
 .UXDesign h3,
-.UsabilityTest h3 {
+.UsabilityTest h3, 
+.ProjectPrototype h3,
+.KeyTakeaways h3 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -72,7 +78,9 @@
 
 .Howitallstarted h4,
 .UXDesign h4,
-.UsabilityTest h4 {
+.UsabilityTest h4, 
+.ProjectPrototype h4,
+.KeyTakeaways h4 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -81,7 +89,9 @@
 
 .Howitallstarted p,
 .UXDesign p,
-.UsabilityTest p {
+.UsabilityTest p, 
+.ProjectPrototype p
+.KeyTakeaways p {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
