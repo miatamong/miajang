@@ -105,6 +105,14 @@ h6 {
   font-size: 1vw;
 }
 
+h7 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 300;
+  margin: 30px 0 20px 0;
+  font-size: 2vw;
+  color: black;
+}
+
 h2{
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 600;
@@ -459,7 +467,7 @@ h4, h5, figure {
     margin-bottom: 30px;
   }
 }
-#fh5co-features .feature-left .icon i {
+#fh5co-features .feature-left .icon img {
   font-size: 30px;
   color: #1a1a1a !important;
 }
