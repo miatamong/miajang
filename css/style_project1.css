@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+/* 컨테이너 */
+
 .part1-container {
   background-color: #3d5dff;
   color: white;
@@ -29,6 +31,31 @@
 
 .question {
   margin-bottom: 10px;
+}
+
+/* Nav *//* Nav *//* Nav *//* Nav */
+
+.summary-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.summary-box {
+  flex: 1 1 calc(25% - 20px);
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.summary-heading {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.summary-content {
+  font-size: 14px;
 }
 
 
