@@ -40,10 +40,27 @@
 *
 * ======================================================= */
 
+/* Part1 */
+
 .Howitallstarted h1 {
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 23px;
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.Howitallstarted h2 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+}
+
+.Howitallstarted h3 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .Howitallstarted p{
@@ -52,10 +69,20 @@
   font-size: 18px;
 }
 
+/* Part2 */
+
 .UXDesign h1 {
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 23px;
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.UXDesign h2 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
 }
 
 .UXDesign p{
@@ -64,10 +91,20 @@
   font-size: 18px;
 }
 
+/* Part3 */
+
 .UsabilityTest h1 {
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.UsabilityTest h2 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
 }
 
 .UsabilityTest p{
