@@ -5,6 +5,33 @@
   font-style: normal;
 }
 
+.part1-container {
+  background-color: #3d5dff;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.part2-container {
+  background-color: #ffba42;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.part-heading {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+
 /* Nav */
 
 /* a tag - 내부 내용
