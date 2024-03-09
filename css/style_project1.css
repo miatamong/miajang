@@ -40,6 +40,43 @@
 *
 * ======================================================= */
 
+.Howitallstarted h1 {
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.Howitallstarted p{
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.UXDesign h1 {
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.UXDesign p{
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.UsabilityTest h1 {
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.UsabilityTest p{
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
