@@ -34,6 +34,7 @@
   border: 1px solid rgb(0, 0, 0);
 }
 
+
 /* =======================================================
 *
 * 	Template Style 
@@ -42,57 +43,8 @@
 
 /* Part1 */
 
-.Howitallstarted h1 {
-  font-family: "aktiv-grotesk-georgian", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 25px;
-}
-
-.Howitallstarted h2 {
-  font-family: "aktiv-grotesk-georgian", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 21px;
-}
-
-.Howitallstarted h3 {
-  font-family: "aktiv-grotesk-georgian", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 20px;
-}
-
-.Howitallstarted p{
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-/* Part2 */
-
-.UXDesign h1 {
-  font-family: "aktiv-grotesk-georgian", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 25px;
-}
-
-.UXDesign h2 {
-  font-family: "aktiv-grotesk-georgian", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 21px;
-}
-
-.UXDesign p{
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-/* Part3 */
-
+.Howitallstarted h1,
+.UXDesign h1,
 .UsabilityTest h1 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 800;
@@ -100,6 +52,8 @@
   font-size: 25px;
 }
 
+.Howitallstarted h2,
+.UXDesign h2,
 .UsabilityTest h2 {
   font-family: "aktiv-grotesk-georgian", sans-serif;
   font-weight: 700;
@@ -107,12 +61,40 @@
   font-size: 21px;
 }
 
-.UsabilityTest p{
+.Howitallstarted h3,
+.UXDesign h3,
+.UsabilityTest h3 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.Howitallstarted h4,
+.UXDesign h4,
+.UsabilityTest h4 {
+  font-family: "aktiv-grotesk-georgian", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+}
+
+.Howitallstarted p,
+.UXDesign p,
+.UsabilityTest p {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center; /* 중앙 정렬 추가 */
 }
 
+.left-aligned p {
+  text-align: left;
+}
+
+
+/**/
 
 body {
   font-family: "Inconsolata", Arial, sans-serif;
