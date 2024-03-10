@@ -83,11 +83,13 @@
 
 .Nav-item {
   display: inline-block;
-  background: rgb(81, 127, 255);
+  background: rgb(193, 70, 255);
   padding: 5px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
-
 
 /* =======================================================
 *
@@ -106,6 +108,7 @@
   font-weight: 800;
   font-style: normal;
   font-size: 25px;
+  color: rgb(78, 0, 109);
 }
 
 .Howitallstarted h2,
@@ -117,6 +120,7 @@
   font-weight: 700;
   font-style: normal;
   font-size: 21px;
+  color: rgb(123, 0, 171);
 }
 
 .Howitallstarted h3,
@@ -128,6 +132,7 @@
   font-weight: 600;
   font-style: normal;
   font-size: 20px;
+  color: rgb(160, 0, 223);
 }
 
 .Howitallstarted h4,
