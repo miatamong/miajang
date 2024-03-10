@@ -144,6 +144,7 @@
   font-weight: 500;
   font-style: normal;
   font-size: 19px;
+  letter-spacing: -0.7px;
 }
 
 .Howitallstarted p,
@@ -156,6 +157,7 @@
   font-size: 18px;
   margin-bottom: 30px;
   text-align: center; /* 중앙 정렬 추가 */
+  letter-spacing: -0.7px;
 }
 
 .left-aligned p {
@@ -219,7 +221,7 @@ body {
   line-height: 1.7;
   color: #333333;
   background: #fff;
- 
+  letter-spacing: -0.7px;
 }
 
 
