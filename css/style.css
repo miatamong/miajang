@@ -20,6 +20,13 @@ body {
  
 }
 
+.bigditto {
+  transition: transform 0.5s ease; /* 호버 효과가 부드럽게 전환되도록 설정 */
+}
+
+.bigditto:hover {
+  transform: scale(1.1); /* 이미지가 10% 커지도록 설정 */
+}
 
 #page {
   position: relative;
