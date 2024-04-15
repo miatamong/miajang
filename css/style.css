@@ -21,7 +21,10 @@ body {
 }
 
 .bigditto {
-  transition: transform 0.5s ease; /* 호버 효과가 부드럽게 전환되도록 설정 */
+  transition: transform 0.5s;
+  display: block; 
+  text-decoration: none; 
+  color: inherit;
 }
 
 .bigditto:hover {
@@ -679,7 +682,7 @@ h4, h5, figure {
 #fh5co-content-section,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
