@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+.article {
+  display: block;
+  margin: auto; /* 수평 가운데 정렬 */
+  max-width: 50vw; /* 이미지의 최대 너비 */
+  height: auto; /* 높이를 자동으로 조정하여 비율 유지 */
+}
+
 /* 컨테이너 */
 
 .bigditto {

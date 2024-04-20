@@ -1603,7 +1603,8 @@ h6 {
   justify-content: center;
   gap: 20px;
   max-width: 1200px; /* Limits the maximum width of the grid */
-  margin: 0 auto; /* Centers the grid horizontally */
+  margin-left: 3%; /* Centers the grid horizontally */
+  margin-right: 3%;
 }
 
 .project {
