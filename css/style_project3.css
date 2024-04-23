@@ -11,7 +11,13 @@
   max-width: 50vw; /* 이미지의 최대 너비 */
   height: auto; /* 높이를 자동으로 조정하여 비율 유지 */
 }
-
+.nav-center {
+  display: flex;
+  justify-content: center; /* Centers the contents horizontally */
+  align-items: center; /* Aligns the contents vertically */
+  text-align: center;
+  width: 100%;
+}
 /* 컨테이너 */
 
 .bigditto {

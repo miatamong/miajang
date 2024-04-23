@@ -233,6 +233,14 @@ body {
   letter-spacing: -0.7px;
 }
 
+.nav-center {
+  display: flex;
+  justify-content: center; /* Centers the contents horizontally */
+  align-items: center; /* Aligns the contents vertically */
+  text-align: center;
+  width: 100%;
+}
+
 
 #page {
   position: relative;

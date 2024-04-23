@@ -15,6 +15,14 @@
   transform: scale(1.1); /* 이미지가 10% 커지도록 설정 */
 }
 
+.nav-center {
+  display: flex;
+  justify-content: center; /* Centers the contents horizontally */
+  align-items: center; /* Aligns the contents vertically */
+  text-align: center;
+  width: 100%;
+}
+
 .part1-container {
   background-color: #3d5dff;
   color: white;
